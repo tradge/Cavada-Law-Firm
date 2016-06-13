@@ -1,0 +1,58 @@
+@font-face {
+    font-family: PT Sans Narrow;
+    src: url(./fonts/PTSansNarrow.ttf);
+}
+@font-face {
+    font-family: Gotham Book;
+    src: url(./fonts/GothamBookRegular.otf);
+}
+
+h2{
+    font-family:PT Sans Narrow;
+    font-size:48px;
+}
+p {
+    font-family:Gotham Book;
+    font-size:24px;
+}
+
+.contact-us-btn{
+    background-color:#db8f38;
+    color:#fff;
+    padding:5px 20px;
+}
+.widget-text{
+    color:#fff;
+    text-align:left;
+}
+.header-background{
+    background-color:#011516;
+    height:150px;
+}
+.contact-section{
+    background-position:cover;
+    background-image:url(./images/gradianty.jpg); 
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    
+}
+.footer-section{
+    background-image: url(./images/footer.jpg);
+    background-size:100% auto;
+    background-position:cover;
+    background-repeat:no-repeat;
+}
+.footer-section{
+    padding:50px 0px;
+}
+.footer-section p{
+    color:#fff;
+    text-transform:uppercase;
+}
+.logo{
+    max-width:50%;
+}
+.copyright{
+    text-align:right;
+    margin: 100px 0px;
+}
