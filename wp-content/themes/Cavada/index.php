@@ -5,7 +5,7 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <h1>"We are a debt relief law firm. We help people file for bankruptcy relief under the bankruptcy code."</h1>
-            <div class="col-lg-5 col-md-offset-7">
+            <div class="col-lg-6 col-md-offset-6">
                 <h2>RELAX FOR JUST A SECOND.</h2>
                 <p>
                 We have consulted with enough people over the years to know that the word “Bankruptcy” can create lots of anxiety. It can effect your personal life, marriage, your job, but most importantly your self esteem. But we want you to know that the intent of bankruptcy is to get you out of a crushing financial situation, so you can be more productive and move on with integrity and dignity in a life free from the burden of debt.
@@ -13,7 +13,7 @@ get_header(); ?>
             
             </div>    
         </div>
-        <div class="col-lg-5 float-left">
+        <div class="col-lg-6 float-left">
             <h2>"Financial Psychologist"</h2>
             <p>
                 We've helped thousands of people get things back on track after going through tough financial challenges. We sit with you for as long as it takes to go over the options that are best for you. We give you honest answers. Bankruptcy is not the perfect solution for everyone, but we will help you make the best decision for debt relief. We put the “counselor” in Legal Counsel.
@@ -24,7 +24,7 @@ get_header(); ?>
 <div class="container-fluid section-2">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-lg-offset-7">
+            <div class="col-lg-6 col-lg-offset-6">
                 <h2>
                     Complete Bankruptcy Services
                 </h2>
@@ -56,12 +56,14 @@ get_header(); ?>
 </div>
 <div class="container-fluid section-4 ">
     <div class="container text-center">
-        <h2>
-            Confused yet?
-        </h2>
-        <p>
+        <div class="col-lg-10 col-lg-offset-2">
+            <h2>
+                Confused yet?
+            </h2>
+            <p>
             Don't be. Please give us a call today. We will help you make sense of this and any other financial or legal questions you might have. We want to help!
-        </p>
+            </p>
+        </div>
     </div>
 </div>
 

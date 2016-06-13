@@ -6,6 +6,17 @@
     font-family: Gotham Book;
     src: url(./fonts/GothamBookRegular.otf);
 }
+@font-face {
+    font-family: PT Sans Italic;
+    src: url(./fonts/PTSansItalic.ttf);
+}
+
+h1{
+    font-family:PT Sans Italic;
+    font-size:43px;
+    color:#db8f38;
+    text-align:center;
+}
 
 h2{
     font-family:PT Sans Narrow;
@@ -24,13 +35,15 @@ p {
 .widget-text{
     color:#fff;
     text-align:left;
+    font-size:20px;
+    
 }
 .header-background{
     background-color:#011516;
-    height:150px;
+    height:100%;
 }
 .contact-section{
-    background-position:cover;
+    background-size: cover;
     background-image:url(./images/gradianty.jpg); 
     background-size:100% auto;
     background-repeat:no-repeat;
@@ -39,15 +52,18 @@ p {
 .footer-section{
     background-image: url(./images/footer.jpg);
     background-size:100% auto;
-    background-position:cover;
+    background-size: cover;
     background-repeat:no-repeat;
+    background-color: #DC8E39;
 }
 .footer-section{
-    padding:50px 0px;
+    padding:20px 0px;
 }
 .footer-section p{
     color:#fff;
     text-transform:uppercase;
+    font-size:20px;
+    font-family:PT Sans Narrow;
 }
 .logo{
     max-width:50%;
@@ -55,4 +71,28 @@ p {
 .copyright{
     text-align:right;
     margin: 100px 0px;
+}
+input[type=submit]{
+    background-color:#db8f38;
+    border:none;
+    color:#fff;
+}
+.section-1{
+    background-image:url(./images/section-1-bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.section-2{
+    background-image:url(./images/section-2-bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.section-3{
+    background-image:url(./images/section-3-bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height: 425px;
+}
+.section-3 h2 {
+    padding: 120px 0px;
 }
