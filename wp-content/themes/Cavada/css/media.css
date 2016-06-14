@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px){
+    h1{
+        font-size:29px;
+    }
+    h2{
+        font-size:36px;
+        margin:6% auto 2%;
+    }
+    p{
+        font-size:17px;
+    }
+    .section-3{
+        padding-top: 12%;
+    }
+    .section-1{
+        padding: 0 0 10%;
+    }
+    .section-2{
+        padding: 15% 0;
+    }
+}

@@ -1,42 +1,56 @@
 @font-face {
-    font-family: PT Sans Narrow;
+    font-family: 'PT Sans Narrow';
     src: url(./fonts/PTSansNarrow.ttf);
 }
 @font-face {
-    font-family: Gotham Book;
+    font-family: 'Gotham Book';
     src: url(./fonts/GothamBookRegular.otf);
 }
 @font-face {
-    font-family: PT Sans Italic;
+    font-family: 'PT Sans Italic';
     src: url(./fonts/PTSansItalic.ttf);
 }
-
+a {
+    text-decoration:none;
+    color:#fff;
+}
 h1{
-    font-family:PT Sans Italic;
+    font-family:'PT Sans Italic';
     font-size:43px;
     color:#db8f38;
     text-align:center;
+    margin:5% auto;
 }
 
 h2{
-    font-family:PT Sans Narrow;
+    font-family:'PT Sans Narrow';
     font-size:48px;
+    margin:12% auto;
 }
 p {
-    font-family:Gotham Book;
+    font-family:'Gotham Book';
     font-size:24px;
 }
 
 .contact-us-btn{
     background-color:#db8f38;
     color:#fff;
-    padding:5px 20px;
+    padding:5px 50px;
+    border:none;
+    font-size:16px;
+    border-radius:0;
+    font-family:'PT Sans Narrow';
+    margin:15% auto;
+    float:right;
+    text-align:center;
 }
-.widget-text{
+.widget-text p{
     color:#fff;
     text-align:left;
-    font-size:20px;
-    
+    font-size:19px;
+    text-transform:uppercase;
+    font-family:'PT Sans Narrow';
+    margin:3% auto;
 }
 .header-background{
     background-color:#011516;
@@ -45,7 +59,6 @@ p {
 .contact-section{
     background-size: cover;
     background-image:url(./images/gradianty.jpg); 
-    background-size:100% auto;
     background-repeat:no-repeat;
     
 }
@@ -55,44 +68,81 @@ p {
     background-size: cover;
     background-repeat:no-repeat;
     background-color: #DC8E39;
-}
-.footer-section{
     padding:20px 0px;
 }
-.footer-section p{
+.footer-info p{
     color:#fff;
     text-transform:uppercase;
     font-size:20px;
-    font-family:PT Sans Narrow;
+    font-family:'PT Sans Narrow';
 }
 .logo{
-    max-width:50%;
+    margin:2% auto;
+    float:left;
 }
-.copyright{
+.copyright p{
     text-align:right;
-    margin: 100px 0px;
+    margin: 20% auto;
+    font-size:20px;
+    font-family:'PT Sans Narrow';
+    color:#fff;
 }
 input[type=submit]{
     background-color:#db8f38;
     border:none;
     color:#fff;
+    padding: 5px 75px;
+    text-transform:uppercase;
+    float:right;
 }
 .section-1{
     background-image:url(./images/section-1-bg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
+    background-position:center;
 }
 .section-2{
     background-image:url(./images/section-2-bg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
+    background-position:center;
 }
 .section-3{
     background-image:url(./images/section-3-bg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     min-height: 425px;
+    background-position:center;
 }
-.section-3 h2 {
-    padding: 120px 0px;
+.financial-psychologist{
+    margin:20% auto;
+}
+.chapter-13-section{
+    margin: 50% 0 0 0;
+}
+.section-4 p {
+    margin-bottom: 8%;
+}
+.section-4 h2 {
+    margin: 5% auto;
+}
+.contact-form {
+    margin: 15% auto;
+}
+textarea {
+    height: 264px;
+    border: 1px solid #000;
+    padding: 0 0 .5% 2.5%;
+    width: 100%;
+    font-family:'PT Sans Narrow';
+    font-size:40px;
+}
+input[type='tel'], input[type='email'], input[type='text'] {
+    width: 100%;
+    padding: 1.5%;
+    border: 1px solid #000;
+    height: 60px;
+    margin: 0 auto 6% 0;
+    font-family:'PT Sans Narrow';
+    font-size:40px;
 }
