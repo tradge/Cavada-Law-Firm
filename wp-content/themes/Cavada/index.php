@@ -4,7 +4,7 @@ get_header(); ?>
 <div class="container-fluid section-1">
     <div class="container">
         <div class="row">
-            <h1>"We are a debt relief law firm. We help people file for bankruptcy relief under the bankruptcy code."</h1>
+            
             <div class="col-xs-12 col-lg-6 col-lg-offset-6">
                 <h2>RELAX FOR JUST A SECOND.</h2>
                 <p class="highlight-mobile">
@@ -51,7 +51,7 @@ get_header(); ?>
 </div>
 <div class="container-fluid section-3">
     <div class="container text-center">
-        <h2>
+        <h2 class="section-3-h2">
             Both Chapter 7 and Chapter 13 bankruptcy have many rules and exceptions to those rules regarding which debts are covered, who can file, and what property you can and cannot keep.
         </h2>
     </div>
