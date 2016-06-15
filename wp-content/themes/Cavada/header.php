@@ -19,17 +19,22 @@
   
   <div class="container-fluid header-background">
       <div class="container">
-          <div class="col-lg-4 logo pull-left">
+       <div class="row">
+          <div class="col-xs-9 col-sm-4 col-lg-4 logo pull-left">
               
               <img src="<?php echo bloginfo('template_url');?>/images/logo.png" alt="Cavada Law Firm Logo" class="img-responsive logo">
           </div>
-          <div class="col-lg-4 text-center widget-text">
+          <div class="col-sm-2 col-md-4 hidden-md hidden-lg pull-right text-center call-button">
+            <a href="tel:2108805299"><i class="glyphicon glyphicon-earphone "></i></a>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center widget-text hidden-xs hidden-sm">
                 <p>Phone: <a href="tel:2108805299">(210) 880-5299 </a></p>
                 <p> 110 Broadway, STE 370 San Antonio, TX 78205 </br> Inside the Texas Water Exchange offices Parking is in the garage behind the building.</p>
           </div>
-          <div class="col-lg-4">
+          <div class="hidden-sm hidden-xs col-lg-4">
               <button class="btn btn-default contact-us-btn">CONTACT US</button>
           </div>
+        </div>
       </div>
       
   </div>

@@ -25,7 +25,7 @@ h1{
 h2{
     font-family:'PT Sans Narrow';
     font-size:48px;
-    margin:12% auto;
+    margin:12% auto 3%;
 }
 p {
     font-family:'Gotham Book';
@@ -43,6 +43,7 @@ p {
     margin:15% auto;
     float:right;
     text-align:center;
+    line-height: 100%;
 }
 .widget-text p{
     color:#fff;
@@ -106,6 +107,7 @@ input[type=submit]{
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
+    padding: 5% 0;
 }
 .section-3{
     background-image:url(./images/section-3-bg.jpg);
@@ -118,7 +120,7 @@ input[type=submit]{
     margin:20% auto;
 }
 .chapter-13-section{
-    margin: 50% 0 0 0;
+    margin: 60% 0 0 0;
 }
 .section-4 p {
     margin-bottom: 8%;
@@ -145,4 +147,16 @@ input[type='tel'], input[type='email'], input[type='text'] {
     margin: 0 auto 6% 0;
     font-family:'PT Sans Narrow';
     font-size:40px;
+}
+i{
+    background-color:#db8f38;
+    padding: 42px 21px;
+    width: 100%;
+    font-size: 26px;
+}
+.glyphicon{
+    top:0px;
+}
+.call-button {
+    height: 111px;
 }
